@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="6300dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/myy" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                style="@style/text1"
+                android:text="@string/a2" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:padding="8dp"
+                android:src="@drawable/u" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a17" />
+
+            <ImageView
+                style="@style/image3"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/k" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a18" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a19" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/aaa" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/bbb" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a20" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a21" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/eee" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ccc" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a22" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a23" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ddd" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a24" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a25" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/fff" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ggg" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a26" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a27" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/hhh" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a28" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a29" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/iii" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/jjj" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a30" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a31" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/kkk" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a32" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a33" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/lll" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/mmm" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/nnn" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ooo" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a34" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a35" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ppp" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/qqq" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a36" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a37" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/rrr" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sss" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a38" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a39" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/zzz" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a40" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a41" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ttt" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/uuu" />
+
+            <TextView
+                style="@style/text4"
+                android:text="@string/a42" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a43" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/vvv" />
+
+            <ImageView
+                style="@style/image1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/www" />
+
+            <TextView
+                style="@style/text5"
+                android:text="@string/a44" />
+
+            <TextView
+                style="@style/text6"
+                android:text="@string/a45" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

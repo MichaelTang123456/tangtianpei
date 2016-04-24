@@ -1,0 +1,102 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--</style 在家健身>-->
+    <style name="text1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+    <!--</style增大胸肌、撕裂腹肌……>-->
+    <style name="text2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">#FF9800</item>
+        <item name="android:textSize">24sp</item>
+
+    </style>
+
+    <!--Style 一键分享-->
+    <style name="text3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">#00FF00</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorButton6</item>
+
+    </style>
+    <!-- another style-->
+    <style name="text4">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+
+    </style>
+    <!-- another style-->
+    <style name="text5">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginBottom">8dp</item>
+
+    </style>
+
+    <style name="text6">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:gravity">center_horizontal</item>
+
+    </style>
+
+    <style name="image1">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">8dp</item>
+
+    </style>
+
+    <style name="image2">
+        <item name="android:layout_width">144dp</item>
+        <item name="android:layout_height">96dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+
+    </style>
+
+    <style name="image3">
+        <item name="android:layout_width">144dp</item>
+        <item name="android:layout_height">96dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+
+    </style>
+    <style name="image4">
+    <item name="android:layout_width">176dp</item>
+    <item name="android:layout_height">120dp</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+</resources>

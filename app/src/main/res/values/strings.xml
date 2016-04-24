@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">tangtianpei</string>
+    <string name="a">在家健身</string>
+    <string name="a1">增大胸肌</string>
+    <string name="a2">撕裂腹肌</string>
+    <string name="a3">完美背肌</string>
+    <string name="a4">肱二头肌</string>
+    <string name="a5">股四头肌</string>
+    <string name="a6">一键分享</string>
+    <string name="a7">器材：家用哑铃凳一张+哑铃一套（两只）</string>
+    <string name="a8">锻炼方法1:仰卧平躺哑铃推胸 </string>
+    <string name="a9">共4组 每组12个（重量为12RM）</string>
+    <string name="a10">锻炼方法2:仰卧上斜哑铃推胸 </string>
+    <string name="a11">锻炼方法3:仰卧下斜哑铃推胸 </string>
+    <string name="a12">锻炼方法4:仰卧平躺哑铃飞鸟 </string>
+    <string name="a13">锻炼方法5:仰卧上斜哑铃飞鸟 </string>
+    <string name="a14">锻炼方法6:仰卧下斜哑铃飞鸟 </string>
+    <string name="a15">每次锻炼以3~4组为宜，隔1~2天锻炼一次</string>
+    <string name="a16">温馨提示：锻炼之前一定要把胸扩开，活动活动肩和手腕，谨防受伤</string>
+    <string name="a17">器材：瑜伽垫一张</string>
+    <string name="a18">步骤1：屈伸        ——25个/组</string>
+    <string name="a19">保持腹部肌肉紧张，脚不能碰地</string>
+    <string name="a20">步骤2：自行车踏步        ——25个/组（顺逆共2组）</string>
+    <string name="a21">腿尽量伸直，划圈尽量大</string>
+    <string name="a22">步骤3：青蛙抱</string>
+    <string name="a23">身体挺直，腿不能碰地</string>
+    <string name="a24">步骤4：叉腿仰卧起坐        ——25个/组</string>
+    <string name="a25">手先使劲往上顶，然后再去碰脚</string>
+    <string name="a26">步骤5：交叉抬腿       ——25个/组</string>
+    <string name="a27">腿尽量绷直，脚不能碰地</string>
+    <string name="a28">步骤6：脚尖向上顶        ——25个/组</string>
+    <string name="a29">脚尖不要卷过胸，尽量用腹部发力</string>
+    <string name="a30">步骤7：脚尖快速向上顶        ——25个/组</string>
+    <string name="a31">腿尽量绷直，上快下慢</string>
+    <string name="a32">步骤8：V型仰卧起坐        ——15个/组</string>
+    <string name="a33">后背刚着地的时候后背和双脚同时抬起</string>
+    <string name="a34">步骤9：腹斜仰卧起坐       ——25个/组</string>
+    <string name="a35">调整手肘位置，用腹肌发力</string>
+    <string name="a36">步骤10：单腿两头起        ——25个/组</string>
+    <string name="a37">后脚越贴近腰难度越大</string>
+    <string name="a38">步骤10：两头起        ——25个/组</string>
+    <string name="a39">腿绷直抬高，手能够碰到脚尖</string>
+    <string name="a40">步骤11：梅森扭转        ——50个/组</string>
+    <string name="a41">身体挺直，腿不能碰地</string>
+    <string name="a42">步骤12：休息        ——50个/组</string>
+    <string name="a43">放松肌肉，保护胃部(保持30s左右)</string>
+    <string name="a44">锻炼之前做30分钟有氧运动比如跑步，游泳等，减脂塑形效果更好</string>
+    <string name="a45">温馨提示：不一定非要每天都做，不过一周最少要做3次</string>
+    <string name="a46">器材：哑铃凳一张，公园单杠</string>
+    <string name="a47">锻炼方法1:单臂哑铃划船</string>
+    <string name="a48">锻炼方法2:俯卧两头起</string>
+    <string name="a49">锻炼方法3:引体向上</string>
+    <string name="a50">温馨提示：不用每天都练，一周两次左右，幅度尽量大，练前注意拉伸</string>
+    <string name="a51">器材：家用哑铃凳一张+哑铃一套（两只）</string>
+    <string name="a52">锻炼方法1：哑铃坐姿弯举</string>
+    <string name="a53">锻炼方法2：仰卧哑铃弯举</string>
+    <string name="a54">锻炼方法3：哑铃锤式弯举</string>
+    <string name="a55">温馨提示:哑铃重量由轻到重慢慢增加上去，效果会更好</string>
+    <string name="a56">器材：哑铃一套（两只）</string>
+    <string name="a57">锻炼方法：哑铃深蹲</string>
+    <string name="a58">动作要领1：双手各握一只哑铃自然下垂放在身体两侧，抬头挺胸；尽量保持膝关节与脚尖方向一致，不要内扣和外分。</string>
+    <string name="a59">动作要领2：身体平稳下蹲，直到大腿与小腿交角接近（或小于）90度，然后大腿用力蹲，站起来。</string>
+    <string name="a60">温馨提示:锻炼时身体要保持平稳，腰要挺直绷紧</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
