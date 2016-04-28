@@ -1,13 +1,14 @@
 <resources>
     <string name="app_name">tangtianpei</string>
     <string name="a">在家健身</string>
-    <string name="a1">增大胸肌</string>
-    <string name="a2">撕裂腹肌</string>
-    <string name="a3">完美背肌</string>
-    <string name="a4">肱二头肌</string>
-    <string name="a5">股四头肌</string>
-    <string name="a6">一键分享</string>
-    <string name="a7">器材：家用哑铃凳一张+哑铃一套（两只）</string>
+    <string name="a0">返回</string>
+    <string name="a1">胸肌训练计划</string>
+    <string name="a2">腹肌训练计划</string>
+    <string name="a3">背肌训练计划</string>
+    <string name="a4">臂肌训练计划</string>
+    <string name="a5">腿肌训练计划</string>
+    <string name="a6">分享</string>
+    <string name="a7">器材：家用哑铃凳一张+哑铃一套</string>
     <string name="a8">锻炼方法1:仰卧平躺哑铃推胸 </string>
     <string name="a9">共4组 每组12个（重量为12RM）</string>
     <string name="a10">锻炼方法2:仰卧上斜哑铃推胸 </string>
@@ -61,29 +62,6 @@
     <string name="a58">动作要领1：双手各握一只哑铃自然下垂放在身体两侧，抬头挺胸；尽量保持膝关节与脚尖方向一致，不要内扣和外分。</string>
     <string name="a59">动作要领2：身体平稳下蹲，直到大腿与小腿交角接近（或小于）90度，然后大腿用力蹲，站起来。</string>
     <string name="a60">温馨提示:锻炼时身体要保持平稳，腰要挺直绷紧</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </resources>

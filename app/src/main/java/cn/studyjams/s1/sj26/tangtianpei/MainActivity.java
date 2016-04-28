@@ -6,22 +6,25 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
-//定义5个按钮
-    Button buttonone;
-    Button buttontwo;
-    Button buttonthree;
-    Button buttonfour;
-    Button buttonfive;
-    private Button btnFenXiang = null;
+    //定义5个按钮
+    ImageButton buttonone;
+    ImageButton buttontwo;
+    ImageButton buttonthree;
+    ImageButton buttonfour;
+    ImageButton buttonfive;
+    Button FX = null;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnFenXiang = (Button) findViewById(R.id.btnFenXiang);
-        btnFenXiang.setOnClickListener(new OnClickListener() {
+
+        //为分享按钮添加intent
+        FX = (Button) findViewById(R.id.FX);
+        FX.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -32,8 +35,9 @@ public class MainActivity extends AppCompatActivity {
                         intent, "分享"));// 目标应用选择对话框的标题
             }
         });
-//        为第一个按钮添加intent
-        buttonone = (Button) findViewById(R.id.button1);
+
+        //为第一个按钮添加intent
+        buttonone = (ImageButton) findViewById(R.id.button1);
         buttonone.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -46,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 //        为第二个按钮添加intent
-        buttontwo = (Button) findViewById(R.id.button2);
+        buttontwo = (ImageButton) findViewById(R.id.button2);
         buttontwo.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -58,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 //        为第三个按钮添加intent
-        buttonthree = (Button) findViewById(R.id.button3);
+        buttonthree = (ImageButton) findViewById(R.id.button3);
         buttonthree.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -70,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 //        为第四个按钮添加intent
-        buttonfour = (Button) findViewById(R.id.button4);
+        buttonfour = (ImageButton) findViewById(R.id.button4);
         buttonfour.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -82,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 //        为第五个按钮添加intent
-        buttonfive = (Button) findViewById(R.id.button5);
+        buttonfive = (ImageButton) findViewById(R.id.button5);
         buttonfive.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -93,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
 
     }
 

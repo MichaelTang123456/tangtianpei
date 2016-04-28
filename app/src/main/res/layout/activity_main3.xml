@@ -3,280 +3,317 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <RelativeLayout
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="6300dp"
-            android:contentDescription="@string/app_name"
-            android:scaleType="centerCrop"
-            android:src="@drawable/myy" />
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingBottom="@dimen/activity_vertical_margin"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin">
+            android:background="#303F9F"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:text="@string/a0"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
 
             <TextView
-                style="@style/text1"
-                android:text="@string/a2" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/a"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
 
-            <ImageView
+            <Button
+                android:id="@+id/FX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:background="#00000000"
+                android:text="@string/a6"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/button2"
                 style="@style/image1"
                 android:contentDescription="@string/app_name"
-                android:padding="8dp"
                 android:src="@drawable/u" />
 
             <TextView
-                style="@style/text4"
-                android:text="@string/a17" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/a2"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
 
-            <ImageView
-                style="@style/image3"
-                android:layout_gravity="center_horizontal"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/k" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a17" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a18" />
+        <ImageView
+            style="@style/image4"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/k" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a19" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a18" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/aaa" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a19" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/bbb" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/aaa" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a20" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/bbb" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a21" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a20" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/eee" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a21" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/ccc" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/eee" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a22" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ccc" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a23" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a22" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/ddd" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a23" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a24" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ddd" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a25" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a24" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/fff" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a25" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/ggg" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/fff" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a26" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ggg" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a27" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a26" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/hhh" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a27" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a28" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/hhh" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a29" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a28" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/iii" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a29" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/jjj" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/iii" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a30" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/jjj" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a31" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a30" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/kkk" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a31" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a32" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/kkk" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a33" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a32" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/lll" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a33" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/mmm" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/lll" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/nnn" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/mmm" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/ooo" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/nnn" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a34" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ooo" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a35" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a34" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/ppp" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a35" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/qqq" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ppp" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a36" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/qqq" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a37" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a36" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/rrr" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a37" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/sss" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/rrr" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a38" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/sss" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a39" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a38" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/zzz" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a39" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a40" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/zzz" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a41" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a40" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/ttt" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a41" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/uuu" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ttt" />
 
-            <TextView
-                style="@style/text4"
-                android:text="@string/a42" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/uuu" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a43" />
+        <TextView
+            style="@style/text4"
+            android:text="@string/a42" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/vvv" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a43" />
 
-            <ImageView
-                style="@style/image1"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/www" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/vvv" />
 
-            <TextView
-                style="@style/text5"
-                android:text="@string/a44" />
+        <ImageView
+            style="@style/image1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/www" />
 
-            <TextView
-                style="@style/text6"
-                android:text="@string/a45" />
+        <TextView
+            style="@style/text5"
+            android:text="@string/a44" />
+
+        <TextView
+            style="@style/text6"
+            android:text="@string/a45" />
 
 
-        </LinearLayout>
-    </RelativeLayout>
+    </LinearLayout>
+
 </ScrollView>
